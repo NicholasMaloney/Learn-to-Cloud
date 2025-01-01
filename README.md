@@ -15,5 +15,5 @@ I am undertaking the Learn to Cloud project to strengthen my understanding of cl
     - Install WSL (Open PowerShell as an administrator. Run the following command: wsl --install)
 - Set up WSL, using Ubuntu
     - Installed git, vscode, authenticated to github
-    - ~~Need to install Azure CLI ~~ Azure CLI installed 
+    - ~~Need to install Azure CLI~~ Azure CLI installed 
     - ZSH & ZSH plugins installed 
