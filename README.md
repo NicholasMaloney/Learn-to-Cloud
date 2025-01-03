@@ -1,5 +1,6 @@
 # Learn-to-Cloud
 I am undertaking the Learn to Cloud project to strengthen my understanding of cloud concepts and gain hands-on experience with cloud security.
+* Learn to Cloud website: https://learntocloud.guide/
 
 ### Socials 
 * Linkedin: https://www.linkedin.com/in/nicholas-mal/
@@ -35,3 +36,6 @@ I am undertaking the Learn to Cloud project to strengthen my understanding of cl
                     - Followed prompts and saved the output public IP address 
     - Currently working on the "Linux Command Line CTF Challenge" 
         - I have solved the first 3 CTF flags
+        - Completed all Linux CTF challenges 
+    - Moving on to Phase 2: Programming
+    
