@@ -34,8 +34,8 @@ I am undertaking the Learn to Cloud project to strengthen my understanding of cl
                     - Reran the command: terraform plan
                     - Ran the command: terraform apply -var="az_region=australiaeast"
                     - Followed prompts and saved the output public IP address 
-    - Currently working on the "Linux Command Line CTF Challenge" 
-        - I have solved the first 3 CTF flags
-        - Completed all Linux CTF challenges 
-    - Moving on to Phase 2: Programming
+- Currently working on the "Linux Command Line CTF Challenge" 
+    - I have solved the first 3 CTF flags
+    - Completed all Linux CTF challenges 
+- Moving on to Phase 2: Programming
     
