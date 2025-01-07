@@ -43,6 +43,10 @@ resource "azurerm_cosmosdb_account" "dba" {
     failover_priority = 0
   }
 
+  capabilities {
+    name = "EnableServerless"
+  }
+
 }
     # Cosmos DB SQL Database 
 resource "azurerm_cosmosdb_sql_database" "db" {
@@ -58,7 +62,7 @@ resource "azurerm_cosmosdb_sql_container" "dbc" {
   account_name = azurerm_cosmosdb_account.dba.name
   database_name = azurerm_cosmosdb_sql_database.db.name
   partition_key_paths = "/id" # You can this of this like a Primary key, its not the exact same 
-  throughput = 400
+ 
 }
 
           # Cosmos DB Items 
