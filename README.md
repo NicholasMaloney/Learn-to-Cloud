@@ -8,5 +8,7 @@ I am undertaking the Learn to Cloud project to strengthen my understanding of cl
 
 ## Table of Contents
 ### [Phase-1-Linux](/Phase-1-Linux)
+- [**CTF Challenges**](/Phase-1-Linux#ctf-challenges)
 ### [Phase-2-Programming](/Phase-2-Programming)
+- [**Capstone Project**](/Phase-2-Programming#Capstone)
     
