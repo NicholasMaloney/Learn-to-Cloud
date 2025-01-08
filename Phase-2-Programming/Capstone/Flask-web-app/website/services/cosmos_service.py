@@ -1,0 +1,1 @@
+# Logic for querying/storing Pokémon data in Cosmos DB.

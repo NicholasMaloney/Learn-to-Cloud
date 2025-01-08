@@ -1,0 +1,1 @@
+# Configuration settings for the app (e.g., Azure keys, Flask config).

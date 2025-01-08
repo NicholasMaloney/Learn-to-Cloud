@@ -1,0 +1,83 @@
+{
+  "eevee": {
+    "id": "eevee",
+    "name": "eevee",
+    "pokedexId": 133,
+    "types": [
+      "normal"
+    ],
+    "image_url": ""
+  },
+  "vaporeon": {
+    "id": "vaporeon",
+    "name": "vaporeon",
+    "pokedexId": 134,
+    "types": [
+      "water"
+    ],
+    "image_url": ""
+  },
+  "jolteon": {
+    "id": "jolteon",
+    "name": "jolteon",
+    "pokedexId": 135,
+    "types": [
+      "electric"
+    ],
+    "image_url": ""
+  },
+  "flareon": {
+    "id": "flareon",
+    "name": "flareon",
+    "pokedexId": 136,
+    "types": [
+      "fire"
+    ],
+    "image_url": ""
+  },
+  "espeon": {
+    "id": "espeon",
+    "name": "espeon",
+    "pokedexId": 196,
+    "types": [
+      "psychic"
+    ],
+    "image_url": ""
+  },
+  "umbreon": {
+    "id": "umbreon",
+    "name": "umbreon",
+    "pokedexId": 197,
+    "types": [
+      "dark"
+    ],
+    "image_url": ""
+  },
+  "leafeon": {
+    "id": "leafeon",
+    "name": "leafeon",
+    "pokedexId": 470,
+    "types": [
+      "grass"
+    ],
+    "image_url": ""
+  },
+  "glaceon": {
+    "id": "glaceon",
+    "name": "glaceon",
+    "pokedexId": 471,
+    "types": [
+      "ice"
+    ],
+    "image_url": ""
+  },
+  "sylveon": {
+    "id": "sylveon",
+    "name": "sylveon",
+    "pokedexId": 700,
+    "types": [
+      "fairy"
+    ],
+    "image_url": ""
+  }
+}

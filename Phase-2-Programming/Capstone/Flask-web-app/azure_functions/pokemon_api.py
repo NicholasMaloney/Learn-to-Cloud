@@ -1,0 +1,1 @@
+# # Azure Function for Pokémon API logic.

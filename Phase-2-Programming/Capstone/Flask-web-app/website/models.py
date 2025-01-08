@@ -1,0 +1,1 @@
+ # Database models for Pokémon data (optional, for SQLAlchemy or ORM).
