@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
+
+<form action="/search" method="GET">
+  <h3 align="center">
+    Search for a Eevee or an Eeveeloution by name, type or Pokedex ID
+  </h3>
+  <div class="form-group">
+    <label for="name">Name: </label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      name="name" /* This is what this attribute will be called when passed to the back end*/
+      placeholder="e.g., Eevee"
+    /><br>
+
+    <label for="ptype">Type: </label>
+    <input
+      type="text"
+      class="form-control"
+      id="ptype"
+      name="ptype"
+      placeholder="e.g., Electric"
+    /><br>
+
+    <label for="pokedex_id">Pokedex ID: </label>
+    <input
+      type="number"
+      class="form-control"
+      id="pokedex_id"
+      name="pokedex_id"
+      placeholder="e.g., 135"
+    /><br>
+  </div>
+  <br> 
+  <button type="submit" class="btn btn-primary"> Submit</button>
+</form>
+{% endblock %}

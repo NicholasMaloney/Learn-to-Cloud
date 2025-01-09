@@ -17,3 +17,13 @@ Flask-pokemon-app/
     config.py                  # Configuration settings for the app (e.g., Azure keys, Flask config).
     requirements.txt           # Python dependencies for your project.
     README.md                  # Project overview and setup instructions.
+
+### Notes
+- To run the web app run main.py
+- All webpages that users can navigate too are defined in views.py 
+- '__init__.py' stores the routes and views and initilises Flask
+- The tutorial I am following to learn uses Bootstrap as a CSS framework which allows for styling 
+- Make a search bar on home.html, where users can search for pokemon based on 
+    - name 
+    - type 
+    - pokedex ID
