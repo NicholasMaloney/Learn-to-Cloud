@@ -1,10 +1,6 @@
-from flask import Flask, render_template
-import requests
-import json
+from website import create_app
 
-app = Flask(__name__)
+app = create_app()
 
-@app.route("/")
-def hello_world():
-    return "<p>Hello, world!</p>"
-
+if __name__ == '__main__': #Only start the web app if we run the file directly.
+    app.run(debug=True) # Starts the web app 
