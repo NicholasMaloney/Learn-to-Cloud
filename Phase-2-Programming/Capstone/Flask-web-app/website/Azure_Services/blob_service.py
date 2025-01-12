@@ -1,1 +1,0 @@
-# Logic for uploading/retrieving Pokémon images in Blob Storage.

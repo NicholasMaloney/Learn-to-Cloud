@@ -1,5 +1,6 @@
 # A blueprint is a way to organize and structure a Flask application into reusable components
 from flask import Blueprint, render_template, request, jsonify
+from website.services import DBcosmos
 # from website.Azure_Services import cosmos_service
 
 views = Blueprint('views', __name__)
@@ -27,14 +28,11 @@ def search():
         query['pokedex_id'] = int(pokedex_id)
         
     # Fetch data from Cosmos DB using a service layer function
+    pokemon_data = DBcosmos.get_pokemon_by_query(query)
     
     # Check if data was found
-
-    # Return a rendered template with the data
-    render_template("poke_result.html")
-
-'''
-@views.route('/results') # Dont need this, this is just to make sure it works. The "def search():" function will return "poke_result.html" 
-def poke_result():
-    return render_template("poke_result.html")
-'''
+    if not pokemon_data:
+        return jsonify({"error": "No Pokémon found matching your criteria"}),404
+    else:   # Return a rendered template with the data
+        return render_template("poke_result.html", poke = pokemon_data)
+    

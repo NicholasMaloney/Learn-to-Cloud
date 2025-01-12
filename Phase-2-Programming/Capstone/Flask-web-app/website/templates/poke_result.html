@@ -1,10 +1,36 @@
-{% extends "base.html" %} {% block title %}Pokémon Result{% endblock %} 
-
-{% block content%}
-<title>Pokémon Result</title>
-<body>
-    <h1>Pokémon Details</h1>
- 
-</body>
-
-{% endblock %} 
+{% extends "base.html" %} {% block title %}Pokémon Result{% endblock %} {% block
+content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      {% if poke %} {% for pokemon in poke %}
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-primary text-white">
+          <h2 class="mb-0">{{ pokemon.name.capitalize() }}</h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="{{ pokemon.image_url }}"
+                alt="{{ pokemon.name }}"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-8">
+              <h4 class="card-title">Pokédex #{{ pokemon.pokedexId }}</h4>
+              <p class="card-text"><strong>Type(s):</strong></p>
+              {% for type in pokemon.types %}
+              <span class="badge bg-secondary me-1">{{ type }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %} {% else %}
+      <div class="alert alert-warning" role="alert">No Pokémon found.</div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
