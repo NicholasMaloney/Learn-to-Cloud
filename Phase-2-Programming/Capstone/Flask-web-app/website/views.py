@@ -15,7 +15,7 @@ def search():
     # Get user input from query parameters
     name = request.args.get('name')
     ptype = request.args.get('ptype')
-    pokedex_id = request.args.get('pokedex_id')
+    pokedexId = request.args.get('pokedexId')
 
     # Build a query dictionary based on user input
     query = {}
@@ -24,8 +24,8 @@ def search():
         query['name'] = name.lower()
     if ptype:
         query['ptype'] = ptype.lower()
-    if pokedex_id: 
-        query['pokedex_id'] = int(pokedex_id)
+    if pokedexId: 
+        query['pokedexId'] = int(pokedexId)
         
     # Fetch data from Cosmos DB using a service layer function
     pokemon_data = DBcosmos.get_pokemon_by_query(query)

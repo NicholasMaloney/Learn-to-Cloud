@@ -13,16 +13,16 @@ def get_pokemon_by_query(query):
     params = []
     
     if 'name' in query:
-        SQL_query_items += "AND c.name = @name"
-        params.append({"name":"@name", "value":query['name']})
+        SQL_query_items += " AND LOWER(c.name) = @name"
+        params.append({"name": "@name", "value": query['name'].lower()})
     
-    if 'type' in query:
-        SQL_query_items = "AND c.type = @type"
-        params.append({"type":"@type", "value":query['type']})
+    if 'ptype' in query:
+        SQL_query_items += " AND ARRAY_CONTAINS(c.types, @ptype, true)"
+        params.append({"name": "@ptype", "value": query['ptype'].lower()})
     
-    if 'pokedex_id' in query: 
-        SQL_query_items = "AND c.pokedex_id = @pokedex_id"
-        params.append({"pokedex_id": "@pokedex_id", "value":query['pokedex_id']})
+    if 'pokedexId' in query: 
+        SQL_query_items += " AND c.pokedexId = @pokedexId"
+        params.append({"name": "@pokedexId", "value": int(query['pokedexId'])})
     
     # Execute the query
     results = container.query_items(
