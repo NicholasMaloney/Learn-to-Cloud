@@ -5,3 +5,4 @@ git-filter-repo/
 Phase-2-Programming/Capstone/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.2/linux_amd64/terraform-provider-azurerm_v3.0.2_x5
 git-filter-repo/
 Phase-2-Programming/Capstone/__pycache__
+Phase-2-Programming/Capstone/Flask-web-app/website/services/secrets.py
