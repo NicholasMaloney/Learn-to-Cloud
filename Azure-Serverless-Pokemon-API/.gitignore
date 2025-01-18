@@ -172,3 +172,8 @@ cython_debug/
 
 ## Extra 
 packages-microsoft-prod.deb
+.funcignore
+Az-Functions/.gitignore
+.vscode/
+local.settings.json
+host.json

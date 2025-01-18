@@ -2,8 +2,8 @@
 This project iterates on my previous project: [Pokemon API Web App](https://github.com/NicholasMaloney/Learn-to-Cloud/tree/main/Phase-2-Programming#pok%C3%A9mon-api-web-app)
 - The goal of this iteration is to make the project serverless, host all aspects of the project in Azure and get hands-on experience with Azure SDKs & Functions, Python and Terraform
   - if possible I will be reusing the HTML code / front end from my previous project. The reason being, I want to dedicate the time to learning Azure, Python and Terraform instead of learning HTML.
-- My previous project was overwhelming, but taught me a valuable lesson: "you cannot expect the world when you cannot grasp what is under your feet," this has led me to establish personal guidelines for this project as I continue to navigate unfamiliar technologies.
-
+- My previous project was initially overwhelming, but taught me a valuable lesson: "you cannot expect the world when you cannot grasp what is under your feet," this has led me to establish personal guidelines for this project as I continue to navigate unfamiliar technologies.
+- NOTE: I'm temporarily pausing this project while I enhance my Python skills through targeted coursework and hands-on projects. This focused learning approach will better prepare me to complete this project effectively in the future.
 ### Guidelines
 - I will only ask AI for assistance after 2 hours of attempting to solve the problem using Microsoft documentation, Stack Overflow and Reddit with no progress. If at the end of the two hours I have made meaningful progress I will continue without the use of AI.
 - In the event I copy code or use AI to solve a problem, I will type the solution by hand and not copy/paste.
